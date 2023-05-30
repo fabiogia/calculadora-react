@@ -1,0 +1,57 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+}
+nav {
+  text-align: center;
+  background-color: #252424;
+  padding: 2px;
+}
+.layout hr {
+  padding: 0;
+  margin: 0;
+  border-color: #5c5b5b;
+}
+
+nav ul > li {
+  display: inline-block;
+  margin-right: 10px;
+  /* You can also add some margins here to make it look prettier */
+}
+
+nav ul > li > a {
+  text-decoration: none;
+  padding: 10px;
+  border: solid 1px #5c5b5b;
+  color: white;
+}
+
+nav .ativo {
+  background-color: #525252;
+}
+
+.operador {
+  font-size: 18pt;
+  font-weight: bold;
+  line-height: 10pt;
+  padding: 0 5px;
+}
+
+.area-operacoes {
+  text-align: center;
+}
+
+.area-operacoes input {
+  width: 80px;
+  padding: 5px;
+}
+.area-operacoes button {
+  width: 80px;
+  margin: 0 10px;
+  padding: 5px;
+}
+.area-operacoes .resultado {
+  color: white;
+  background-color: #525252;
+  border: 0;
+}
